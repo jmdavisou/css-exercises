@@ -8,7 +8,7 @@ body {
   color: black;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 
 .header {
@@ -38,7 +38,12 @@ a {
 }
 
 .content {
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex: 1;
 }
 
 img {
